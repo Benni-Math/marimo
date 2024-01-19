@@ -41,5 +41,7 @@
         };
 
       }
-    );
+    ) // {
+      overlays.default = final: prev: { marimo = self.packages.${final.system}.default; };
+    };
 }
