@@ -10,7 +10,7 @@
 # Also check versions before running this
 
 nix develop . --show-trace --command $SHELL
-make fe
+make fe -B
 git add .
 nix flake check . --show-trace --all-systems
 
