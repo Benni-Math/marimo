@@ -1,0 +1,1 @@
+This code has been modified by Benedikt Arnarsson. The modifications are the following: addition of *.nix files, addition of ./marimo/_static and ./marimo/_lsp to the git index, addition of nix-update.sh, and addition of NOTICE.

@@ -103,7 +103,9 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-marimo/_static/
-marimo/_lsp/
+# Adding these for nix build
+# marimo/_static/
+# marimo/_lsp/
+result
 
 .vscode

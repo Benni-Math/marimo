@@ -3,3 +3,4 @@ recursive-include marimo/_lsp *
 include marimo/py.typed
 include third_party.txt
 include third_party_licenses.txt
+include NOTICE
