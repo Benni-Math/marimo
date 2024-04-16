@@ -29,7 +29,7 @@
       {
         packages.default = python.pkgs.buildPythonPackage (pythonDist // {
           # TODO: Update this to the latest before building, see ./marimo/__init__.py
-          version = "0.1.83";
+          version = "0.4.0";
         });
 
         devShells.default = pkgs.mkShell {
